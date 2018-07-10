@@ -1,0 +1,19 @@
+.header
+	.container
+		.header__menu
+			.header__logo
+				img.logo(src="img/logotype.png")
+
+			.mobile
+				a(href="#").mobile__burger: span.mobile__line
+				.mobile__nav
+					.mobile__close &times;
+					ul.nav
+						li.nav__item: a.nav__link(href="#") Home
+						li.nav__item: a.nav__link(href="#") About Us
+						li.nav__item: a.nav__link(href="#") Gallery
+						li.nav__item: a.nav__link(href="#") Our Worker
+						li.nav__item: a.nav__link(href="#") Contacts
+
+			.header__search
+				input.search(type="text")

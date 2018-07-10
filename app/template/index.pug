@@ -6,18 +6,8 @@ head
 	title Document
 body
 	.wrapper
-		header.header
-			.container
-				.header__menu
-					.header__logo
-						img.logo(src="img/logotype.png")
-
-					ul.nav
-						li.nav__link: a(href="#") asdf
-						li.nav__link: a(href="#") asdf
-						li.nav__link: a(href="#") asdf
-						li.nav__link: a(href="#") asdf
-						li.nav__link: a(href="#") asdf
-
-					.header__search
-						input.search(type="text")
+		include sections/header
+		include sections/main
+	
+	script(src="js/jquery.min.js")
+	script(src="js/main.min.js")

@@ -7,22 +7,29 @@
 </head>
 <body>
   <div class="wrapper">
-    <header class="header">
+    <div class="header">
       <div class="container">
         <div class="header__menu">
           <div class="header__logo"><img class="logo" src="img/logotype.png"/></div>
-          <ul class="nav">
-            <li class="nav__link"><a href="#">asdf</a></li>
-            <li class="nav__link"><a href="#">asdf</a></li>
-            <li class="nav__link"><a href="#">asdf</a></li>
-            <li class="nav__link"><a href="#">asdf</a></li>
-            <li class="nav__link"><a href="#">asdf</a></li>
-          </ul>
+          <div class="mobile"><a class="mobile__burger" href="#"><span class="mobile__line"></span></a>
+            <div class="mobile__nav">
+              <div class="mobile__close">&times;</div>
+              <ul class="nav">
+                <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">About Us</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Gallery</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Our Worker</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Contacts</a></li>
+              </ul>
+            </div>
+          </div>
           <div class="header__search">
             <input class="search" type="text"/>
           </div>
         </div>
       </div>
-    </header>
+    </div>
   </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/main.min.js"></script>
 </body>
