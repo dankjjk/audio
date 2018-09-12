@@ -1,51 +1,19 @@
 .header {
-	border-bottom: 1px solid silver;
 
 	&__menu {
-		display: flex;
-		flex-wrap: wrap;
-		align-content: center;
-		justify-content: space-between;
+
 	}
 
-	&__logo {
-		display: inline-block;
-		vertical-align: top;
-
-		.logo {
-			height: 80px;
-			padding: 15px 20px;
-		}
+	.logo {
+		height: 50px;
 	}
-
-	&__search {
-		display: inline-block;
-		vertical-align: top;
-		padding: 20px 0;
-
-		.search {
-			padding: 8px 15px;
-			border: 1px solid silver;
-			border-radius: 4px;
-
-			&:hover,
-			&:active {
-				border: 1px solid #4D8DF6;
-			}
-		}
-	}
-
 }
 
 .nav {
-	margin: 0;
-	padding: 10px 0;
-	display: inline-block;
-	vertical-align: top;
+	display: flex;
+	flex-direction: row;
 
 	&__link {
-		display: inline-block;
-		vertical-align: top;
-		padding: 20px 30px;
+
 	}
 }

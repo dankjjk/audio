@@ -1,23 +1,10 @@
-<!DOCTYPE html>
-html(lang="en")
-head
-	meta(charset="UTF-8")
-	link(rel="stylesheet", href="css/main.min.css")
-	title Document
-body
-	.wrapper
-		header.header
-			.container
-				.header__menu
-					.header__logo
-						img.logo(src="img/logotype.png")
+doctype html
+html(lang="ru")
+	head
+		meta(charset="UTF-8")
+		link(rel="stylesheet", href="css/main.min.css")
+		title Document
 
-					ul.nav
-						li.nav__link: a(href="#") asdf
-						li.nav__link: a(href="#") asdf
-						li.nav__link: a(href="#") asdf
-						li.nav__link: a(href="#") asdf
-						li.nav__link: a(href="#") asdf
-
-					.header__search
-						input.search(type="text")
+	body
+		include section/header
+		include section/main
